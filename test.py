@@ -35,5 +35,4 @@ response2 = openai.chat.completions.create(
 )
 print("\n")
 print(response2.choices[0].message.content)
-
 display(Markdown(answer))
